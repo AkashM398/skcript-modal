@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+/* Home Section */
+
+.home-content {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.home-text {
+  font-weight: 400;
+}
+
+.home-button {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+}
+
+.home-button:hover, .home-button:focus {
+  margin-top: 20px;
+  border: black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #2c2a35;
+  color: white;
+}
+
+
 /* Modal Section */
 
 .modal-wrapper {
@@ -120,13 +150,23 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-left: 10px;
 }
 
 .button-key {
   text-align: center;
   display: flex;
   align-items: center;
-  padding-right: 20px;
+  padding: 3px 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #555464;
+}
+
+.button-icon {
+  padding-top: 3px;
+  margin-right: 5px;
+  color: #555464;
 }
 
 /* Button Section End */

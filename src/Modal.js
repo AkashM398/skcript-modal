@@ -2,6 +2,9 @@ import React, { forwardRef, useImperativeHandle } from "react";
 import ReactDOM from "react-dom";
 import Mousetrap from "mousetrap";
 import { Scrollbars } from "react-custom-scrollbars";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
+
+
 
 const Modal = forwardRef((props, ref) => {
   const [display, setDisplay] = React.useState(false);
@@ -60,6 +63,7 @@ const Modal = forwardRef((props, ref) => {
                         rel="noopener noreferrer">
                         <button className="content-button">
                           <div className="button-items">
+                            <div className="button-icon"><FaExternalLinkSquareAlt/></div>
                             <div className="button-label">{data.name}</div>
                             <div className="button-key">{data.key}</div>
                           </div>
