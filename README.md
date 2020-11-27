@@ -1,6 +1,6 @@
 # skcript-modal
 
-# Getting Started
+## Getting Started
 
 Execute this command to install necessary packages:
 
