@@ -34,7 +34,6 @@ const Modal = forwardRef((props, ref) => {
               onChange={handleSearch}
               type="search"
               placeholder="Enter something"
-              autoFocus
             />
           </div>
           <div className="content">
