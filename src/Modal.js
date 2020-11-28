@@ -4,8 +4,6 @@ import Mousetrap from "mousetrap";
 import { Scrollbars } from "react-custom-scrollbars";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
-
-
 const Modal = forwardRef((props, ref) => {
   const [display, setDisplay] = React.useState(false);
   const [text, setText] = React.useState("");
@@ -36,6 +34,7 @@ const Modal = forwardRef((props, ref) => {
               onChange={handleSearch}
               type="search"
               placeholder="Enter something"
+              autoFocus
             />
           </div>
           <div className="content">
